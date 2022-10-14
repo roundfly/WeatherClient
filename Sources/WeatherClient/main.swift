@@ -3,6 +3,7 @@ enum Weather: CaseIterable {
     case cold
     case rain
     case snow
+    case makeItRain
  }
 
  print("Tomorrow the weather will be: \(Weather.allCases.randomElement()!)")
